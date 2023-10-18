@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin:auto;
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    /* everything need to be in the middle vertically */
+    height: 80vh;
+   
+}
+
+.main label{
+    margin: 5px 0;
+    
+}
+
+.main input{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
