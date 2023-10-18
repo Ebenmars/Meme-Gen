@@ -2,17 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* will do later  */
+    background-color:black;
+    color: white;
 }
 .main{
     margin:auto;
-    width:200px;
+    width:400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
    
     /* everything need to be in the middle vertically */
-    height: 80vh;
-   
+    height: 100vh;
+    margin-top: 20px;
 }
 
 .main label{
@@ -21,7 +24,27 @@
 }
 
 .main input{
-    width: 100%;
+    width: 400px;
+    height: 30px;
     box-sizing: border-box;
     margin-bottom: 20px;
+   
+}
+
+.main input[type="text"]{
+    border-style:groove;
+    border-radius: 5px;
+}
+
+button{
+    height: 30px;
+    border-style:groove;
+    border-radius: 5px;
+}
+
+
+#picture{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
 }
